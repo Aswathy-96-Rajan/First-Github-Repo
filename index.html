@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-primary"> <!--Start of Header-->
+        <a class="navbar-brand" href="#">
+          <img src="Calculator.jpg" width="30" height="30" class="d-inline-block align-top" alt="Icon">
+          Calculator App
+        </a>
+      </nav> <!--End of Header-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 border border-primary">
+            <div class="row mymargin"> <!--First Row-->
+                <label for="input 1" style="font-size: large;">Input 1 :</label>
+                <input type="number" class="border-primary ">
+            </div>
+            <div class="row mymargin"> <!--Second Row-->
+                <label for="input 2" style="font-size: large;">Input 2 :</label>
+                <input type="number" class="border-primary">
+            </div>
+            <div class="row mymargin"> <!--Third Row-->
+                <label for="result" style="font-size: large;">Answer :</label>
+                <input type="number" class="border-danger">
+            </div>
+            <div class="row mymargin"> <!--Fourth Row-->
+                <button class="col-md-2 bg-success text-center mymargin2 border border-danger">7</button>
+                <button class="col-md-2 bg-danger text-center mymargin2 border border-danger">8</button>
+                <button class="col-md-2 bg-primary text-center mymargin2 border border-danger">9</button>
+                <button class="col-md-2 bg-warning text-center mymargin2 border border-danger">+</button>
+            </div>
+            <div class="row mymargin"> <!--Fifth Row-->
+                <button class="col-md-2 bg-danger text-center mymargin2 border border-danger">4</button>
+                <button class="col-md-2 bg-primary text-center mymargin2 border border-danger">5</button>
+                <button class="col-md-2 bg-warning text-center mymargin2 border border-danger">6</button>
+                <button class="col-md-2 bg-primary text-center mymargin2 border border-danger">_</button>
+            </div>
+            <div class="row mymargin"> <!--Sixth Row-->
+                <button class="col-md-2 bg-primary text-center mymargin2 border border-danger">1</button>
+                <button class="col-md-2 bg-warning text-center mymargin2 border border-danger">2</button>
+                <button class="col-md-2 bg-primary text-center mymargin2 border border-danger">3</button>
+                <button class="col-md-2 bg-danger text-center mymargin2 border border-danger">X</button>
+            </div>
+            <div class="row mymargin"> <!--Seventh Row-->
+                <button class="col-md-2 bg-warning text-center mymargin2 border border-danger"><-</button>
+                <button class="col-md-2 bg-primary text-center mymargin2 border border-danger">0</button>
+                <button class="col-md-2 bg-danger text-center mymargin2 border border-danger">ok</button>
+                <button class="col-md-2 bg-success text-center mymargin2 border border-danger">/</button>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-light bg-primary"> <!--Start of Footer-->
+    <a class="navbar-brand" href="#" style="padding-left: 550px;">Copyright @ ICTAK</a>
+</nav> <!--End of Footer-->
+</body>
+</html>
